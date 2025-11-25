@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!assets|manifest\\.json|sw\\.js|.*\\.png|.*\\.jpg|.*\\.svg).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
